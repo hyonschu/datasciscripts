@@ -1,8 +1,6 @@
-### this is a script that goes through a list of text and asks the user
-### to select if it is "correct" or not. upon input, the script will 
-### remember the selection for each item and apply it to the next
-### occurrence of identical item. it does so through an interactive 
-### interface (prompts)
+### tl;dr - script runs through list, asks for changes, changes get
+### applied to every occurrence automatically.
+### it should help with data janitorialism
 
 class text_normal():
     def __init__(self, array):
